@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".GameActivity2">
+
+    <Button
+        android:id="@+id/CLEANButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="136dp"
+        android:text="CLEAN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CleantextView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/PLAYButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="136dp"
+        android:text="PLAY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toEndOf="@+id/HappytextView" />
+
+    <Button
+        android:id="@+id/FEEDButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="12dp"
+        android:text="FEED"
+        android:textColorHighlight="#A32B2B"
+        android:textColorLink="#DC1313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HungertextView"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <TextView
+        android:id="@+id/HungertextView"
+        android:layout_width="102dp"
+        android:layout_height="38dp"
+        android:text="Hunger"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/CleantextView"
+        android:layout_width="105dp"
+        android:layout_height="33dp"
+        android:text="Clean"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/HappytextView"
+        android:layout_width="107dp"
+        android:layout_height="29dp"
+        android:text="Happy"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <ImageView
+        android:id="@+id/pitbullimageView"
+        android:layout_width="249dp"
+        android:layout_height="264dp"
+        app:srcCompat="@drawable/pitbull"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="45dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

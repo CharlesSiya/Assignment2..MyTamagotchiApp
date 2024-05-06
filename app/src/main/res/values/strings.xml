@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My PitBull Application</string>
+    <string name="feed_thank_you" />
+    <string name="play_with_me" />
+    <string name="nice_and_clean" />
+    <string name="the_play_was_fun" />
+    <string name="clean_after_playing" />
+</resources>
